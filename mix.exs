@@ -4,7 +4,7 @@ defmodule HTTPotion.Mixfile do
   def project do
     [app: :httpotion,
      version: "0.2.2",
-     elixir: "~> 0.11.1",
+     elixir: "*",
      deps: deps]
   end
 
